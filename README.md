@@ -9,6 +9,8 @@ This repo consists of the following:
 
 2. tidydata.txt (output of first part of run_analysis.R)
 
+3. averages.txt (output of second part of run_analysis.R)
+
 
 
 # Explanation
@@ -60,3 +62,6 @@ The following is a brief description of run_analysis.R:
    -- activity.mean: 6 obs, 67 columns
 
    -- interaction.mean: 180 obs, 67 columns
+
+3. The result from interaction.mean is written to a file
+   averages.txt
