@@ -15,7 +15,7 @@ This repo consists of the following:
 
 The following is a brief description of run_analysis.R:
 
-Part 1:
+## Part 1:
 
 1. read in features (561 of them), activities (6 of them)
 
@@ -45,7 +45,7 @@ Part 1:
 
 7. tidy.data is then written to a file tidydata.txt.
 
-Part 2:
+## Part 2:
 
 1. tidy.data is melted. subject and activities are taken as id's,
    and the rest 66 columns are taken as measure.vars.
