@@ -1,11 +1,17 @@
 Week_3_Peer_Accessment
 ======================
 
+# Content
+
 This repo consists of the following:
+
 1. run_analysis.R
 
 2. tidydata.txt (output of first part of run_analysis.R)
 
+
+
+# Explanation
 
 The following is a brief description of run_analysis.R:
 
@@ -16,13 +22,16 @@ Part 1:
 2. read in test data: X_test (measurements of 561 features)
                       subject_test (subject tested)
                       y_test (activities for each measurement)
+
    2947 observations.
 
 3. read in train data: X_train, subject_train, y_train
+
    7352 observations.
 
 4. merge test and train data sets to form new data frame
     all.data. It contains the merged X, y, and subject
+
    10299 observations.
 
 5. The column names of all.data are modified to be descriptive
@@ -45,6 +54,9 @@ Part 2:
    The averages of 66 columns are computed according to subject,
    activity, as well as interations of subject and activity.
    The resulting three data sets are:
+
    -- subject.mean: 30 obs, 67 columns (66 measurements)
+
    -- activity.mean: 6 obs, 67 columns
+
    -- interaction.mean: 180 obs, 67 columns
